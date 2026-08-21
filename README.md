@@ -154,42 +154,44 @@ Values → pollution_value
 <img width="505" height="302" alt="image" src="https://github.com/user-attachments/assets/1f1585bf-325c-4dc1-8bfc-9b506e95902b" />
 
 
-11. Remove Duplicate Records
+## **11. Remove Duplicate Records**
 
 Identified and removed duplicate pollution records using PySpark.
 
-<img width="415" height="291" alt="image" src="https://github.com/user-attachments/assets/b2498573-e379-45a3-a058-328752691080" />
+<img width="442" height="254" alt="image" src="https://github.com/user-attachments/assets/6a87b3b3-7d4f-419f-a74e-4d051466c29c" />
 
 
-12. Generate Statistical Summary
+---
+
+## **12. Generate Statistical Summary**
 
 Generated statistical information for pollution values, including:
 
-Count
-Mean
-Standard Deviation
-Minimum
-Maximum
+- **Count**
+- **Mean**
+- **Standard Deviation**
+- **Minimum**
+- **Maximum**
 
-<img width="478" height="230" alt="image" src="https://github.com/user-attachments/assets/279e544c-79f0-4886-96d8-fa690b84c78f" />
+<img width="455" height="236" alt="image" src="https://github.com/user-attachments/assets/3c948cad-55bf-4eaa-b4a3-837a5a4a833b" />
 
-13. Pollutant-specific Analysis
+---
 
-Filtered the dataset to analyze records for a specific pollutant such as PM2.5.
+## **13. Pollutant-specific Analysis**
 
-<img width="392" height="317" alt="image" src="https://github.com/user-attachments/assets/864a818d-6c7c-4434-af00-335048fd8485" />
+Filtered the dataset to analyze records for a specific pollutant such as **PM2.5**.
+
+<img width="430" height="312" alt="image" src="https://github.com/user-attachments/assets/a171cc23-f32b-46c5-b621-1aa35af7d2e5" />
 
 
-14. Save Highly Polluted Records
+---
+
+## **14. Save Highly Polluted Records**
 
 Filtered pollution readings where:
 
+```text
 Values > 300
-
-and saved the resulting records into a separate CSV output.
-
-<img width="629" height="74" alt="image" src="https://github.com/user-attachments/assets/cfae10ae-05e9-4ca1-9543-ed57f6921487" />
-
 
 15. Environmental Monitoring Dashboard Dataset
 
@@ -198,9 +200,6 @@ Generated a location-wise monitoring report containing:
 Average Pollution
 Maximum Pollution
 Total Records
-
-<img width="846" height="196" alt="image" src="https://github.com/user-attachments/assets/b9a93999-dbf5-4e62-b1cf-1e30a83fe525" />
-
 🧰 PySpark Operations Used
 
 This project provided hands-on practice with several important PySpark DataFrame functions and operations.
@@ -255,33 +254,23 @@ The project follows a practical ETL-style data processing workflow:
                       ▼
                   CSV Output
 
-📈 Final Environmental Monitoring Report
-
-The final analysis generates a location-wise environmental monitoring dataset containing:
-
-Location	Average Pollution	Maximum Pollution	Total Records
-Location 1	Calculated value	Maximum value	Record count
-Location 2	Calculated value	Maximum value	Record count
-
-This report can be further used for business intelligence and dashboard development using tools such as Power BI or Tableau.
-
 💡 Key Learning Outcomes
 
 Through this project, I strengthened my practical understanding of:
 
 Apache PySpark
 PySpark DataFrames
-Data filtering
-Data transformation
-Data aggregation
-GroupBy operations
-Statistical analysis
-Handling duplicate records
-Conditional transformations
-CSV data processing
-ETL workflows
-Environmental data analysis
-Preparing datasets for reporting and dashboards
+Data Filtering
+Data Transformation
+Data Aggregation
+GroupBy Operations
+Statistical Analysis
+Handling Duplicate Records
+Conditional Transformations
+CSV Data Processing
+ETL Workflows
+Environmental Data Analysis
+Preparing Datasets for Reporting and Dashboards
 📌 Skills Demonstrated
 Programming
 Python
@@ -296,7 +285,7 @@ Data Analysis
 Pollution Trend Analysis
 Location-wise Analysis
 Pollutant-specific Analysis
-Severity Classification
+Pollution Severity Classification
 Tools
 Google Colab
 Git
@@ -318,31 +307,3 @@ Adding predictive analysis for future pollution levels
 This project was developed as a hands-on learning and portfolio project to strengthen practical skills in PySpark, data analysis, and ETL workflows.
 
 It demonstrates how raw environmental data can be transformed into meaningful analytical datasets that can support reporting and decision-making.
-
-👩‍💻 Author
-Sridevi K
-
-BCA Analytics Graduate | Data Analytics Fresher
-
-Technical Interests
-Data Analytics
-Python
-SQL
-PySpark
-Power BI
-Data Visualization
-Big Data
-ETL
-🔗 Connect With Me
-
-GitHub:
-https://github.com/Sridevi-coder62
-
-LinkedIn:
-https://www.linkedin.com/in/sridevi-k/
-
-⭐ Acknowledgement
-
-This project was created as part of my hands-on learning journey in Data Analytics and Big Data Processing, with a focus on applying PySpark to a real-world environmental monitoring use case.
-
-⭐ If you found this project useful, feel free to explore the notebook and connect with me!
